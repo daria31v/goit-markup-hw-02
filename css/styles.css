@@ -2,16 +2,20 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
   font-size: 14px;
+  font-weight: 400;
 }
 a {
   text-decoration: none;
+  color: #212121;
 }
 .list {
   list-style: none;
 }
-.header-link-h2 {
+.main-h1 {
+  font-size: 44px;
+  color: #ffffff;
 }
-.header-link-p {
+.main-link-p {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
@@ -33,4 +37,10 @@ a {
 }
 .logo-accent-1 {
   color: #ffffff;
+}
+.background {
+  background-color: #2f303a;
+}
+.main-h3 {
+  font-weight: 700;
 }
