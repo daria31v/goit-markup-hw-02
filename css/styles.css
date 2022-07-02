@@ -7,6 +7,7 @@
   --white-color: #ffffff;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --bgr-button-secondary: #f5f4fa;
+  --main-text: #757575;
 }
 /* общий стиль для двух страниц */
 body {
@@ -29,7 +30,15 @@ body {
   color: var(--accent-bgr-btn-color);
 }
 .list-link.current {
-  color: #2196f3;
+  color: var(--accent-bgr-btn-color);
+}
+/* стиль для фона header */
+.header-bgr {
+  background-color: var(--header-bgr-color);
+}
+/* стиль для фона main */
+.main-bgr {
+  background-color: var(--primery-bgr-color);
 }
 /* стиль для логотипов */
 .logo-link {
@@ -53,6 +62,15 @@ body {
   font-weight: 700;
   font-size: 16px;
   background-color: var(--bgr-button-secondary);
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-bgr-btn-color);
+  color: var(--white-color);
+}
+.button:active {
+  background-color: var(--accent-bgr-btn-color);
 }
 .button.primary {
   background-color: var(--accent-bgr-btn-color);
@@ -61,10 +79,10 @@ body {
   font-size: 16px;
 }
 .button.secondary {
-  background-color: var(--bgr-button-secondary);
   font-weight: 500;
   font-size: 16px;
 }
+
 /* стили для подвалов обоих страниц */
 .footer-link {
   color: var(--footer-text-color);
@@ -76,7 +94,7 @@ body {
 .footer-bgr {
   background-color: var(--hero-footer-bgr-color);
 }
-/* стили для страницы "Студия" */
+/* СТИЛИ ДЛЯ СТРАНИЦЫ СТУДИЯ */
 /* герой */
 .section-hero {
   background-color: var(--hero-footer-bgr-color);
@@ -88,4 +106,4 @@ body {
 }
 /* секции */
 
-/* стиль для портфолио */
+/* СТИЛИ ДЛЯ СТРАНИЦЫ ПОРТФОЛИО */
