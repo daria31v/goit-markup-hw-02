@@ -15,7 +15,8 @@ body {
   color: var(--primery-text-color);
   font-size: 14px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -23,6 +24,7 @@ body {
 .list-link {
   text-decoration: none;
   color: var(--primery-text-color);
+  letter-spacing: 0.02em;
 }
 .list-link:hover,
 .list-link:focus,
@@ -63,6 +65,7 @@ body {
   font-size: 16px;
   background-color: var(--bgr-button-secondary);
   cursor: pointer;
+  font-family: inherit;
 }
 .button:hover,
 .button:focus {
@@ -78,6 +81,7 @@ body {
   font-weight: 700;
   font-size: 16px;
 }
+
 .button.secondary {
   font-weight: 500;
   font-size: 16px;
@@ -86,6 +90,10 @@ body {
 /* стили для подвалов обоих страниц */
 .footer-link {
   color: var(--footer-text-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--white-color);
 }
 .footer-address {
   color: var(--white-color);
@@ -105,5 +113,14 @@ body {
   line-height: 60px;
 }
 /* секции */
+/* features */
+.features-list-title {
+  text-transform: uppercase;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+.features-text {
+  color: var(--main-text);
+}
 
 /* СТИЛИ ДЛЯ СТРАНИЦЫ ПОРТФОЛИО */
