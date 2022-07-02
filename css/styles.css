@@ -8,6 +8,7 @@
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --bgr-button-secondary: #f5f4fa;
   --main-text: #757575;
+  --hover-focus-btn: #188ce8;
 }
 /* общий стиль для двух страниц */
 body {
@@ -62,29 +63,37 @@ body {
 }
 /* кнопки */
 .button {
-  font-weight: 700;
   font-size: 16px;
-  background-color: var(--bgr-button-secondary);
   cursor: pointer;
   font-family: inherit;
+  line-height: 1.63;
+  background-color: var(--bgr-button-secondary);
 }
 .button:hover,
 .button:focus {
-  background-color: var(--accent-bgr-btn-color);
+  background-color: var(--hover-focus-btn);
   color: var(--white-color);
 }
 .button:active {
   background-color: var(--accent-bgr-btn-color);
 }
-.button.primary {
+.button.hero {
+  line-height: 1.88;
   background-color: var(--accent-bgr-btn-color);
   color: var(--white-color);
   font-weight: 700;
-  font-size: 16px;
+}
+.button.hero:hover,
+.button.hero:focus {
+  background-color: var(--hover-focus-btn);
+}
+.button.primary {
+  background-color: var(--accent-bgr-btn-color);
+  color: var(--white-color);
+  font-weight: 500;
 }
 .button.secondary {
   font-weight: 500;
-  font-size: 16px;
 }
 /* стили для подвалов обоих страниц */
 .footer-link {
@@ -115,7 +124,6 @@ body {
 /* секции */
 /* features */
 .features-title {
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .features-text {
@@ -141,3 +149,17 @@ body {
   color: var(--main-text);
 }
 /* СТИЛИ ДЛЯ СТРАНИЦЫ ПОРТФОЛИО */
+.work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primery-text-color);
+  text-align: center;
+}
+.work-text {
+  font-size: 16px;
+  line-height: 1, 88;
+  color: var(--main-text);
+  text-align: center;
+}
