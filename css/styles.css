@@ -33,6 +33,7 @@ body {
 }
 .list-link.current {
   color: var(--accent-bgr-btn-color);
+  text-transform: none;
 }
 /* стиль для фона header */
 .header-bgr {
@@ -81,12 +82,10 @@ body {
   font-weight: 700;
   font-size: 16px;
 }
-
 .button.secondary {
   font-weight: 500;
   font-size: 16px;
 }
-
 /* стили для подвалов обоих страниц */
 .footer-link {
   color: var(--footer-text-color);
@@ -111,16 +110,34 @@ body {
   font-size: 44px;
   color: #ffffff;
   line-height: 60px;
+  text-transform: uppercase;
 }
 /* секции */
 /* features */
-.features-list-title {
-  text-transform: uppercase;
-  line-height: 16px;
+.features-title {
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .features-text {
   color: var(--main-text);
 }
-
+.we-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--main-text);
+}
 /* СТИЛИ ДЛЯ СТРАНИЦЫ ПОРТФОЛИО */
