@@ -26,6 +26,7 @@ body {
   text-decoration: none;
   color: var(--primery-text-color);
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .list-link:hover,
 .list-link:focus,
@@ -36,13 +37,13 @@ body {
   color: var(--accent-bgr-btn-color);
   text-transform: none;
 }
-/* стиль для фона header */
-.header-bgr {
-  background-color: var(--header-bgr-color);
+.list-link.header {
+  color: var(--main-text);
 }
-/* стиль для фона main */
-.main-bgr {
-  background-color: var(--primery-bgr-color);
+.list-link.header:hover,
+.list-link.header:focus,
+.list-link.header:active {
+  color: var(--accent-bgr-btn-color);
 }
 /* стиль для логотипов */
 .logo-link {
@@ -134,6 +135,9 @@ body {
   line-height: 1.17;
   text-align: center;
 }
+.team {
+  background-color: var(--bgr-button-secondary);
+}
 .team-title {
   font-weight: 500;
   font-size: 16px;
@@ -154,11 +158,9 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primery-text-color);
-  text-align: center;
 }
 .work-text {
   font-size: 16px;
   line-height: 1, 88;
   color: var(--main-text);
-  text-align: center;
 }
