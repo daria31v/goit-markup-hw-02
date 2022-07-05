@@ -26,7 +26,6 @@ body {
   text-decoration: none;
   color: var(--primery-text-color);
   letter-spacing: 0.02em;
-  font-weight: 500;
 }
 .list-link:hover,
 .list-link:focus,
@@ -39,6 +38,7 @@ body {
 }
 .list-link.header {
   color: var(--main-text);
+  font-weight: 500;
 }
 .list-link.header:hover,
 .list-link.header:focus,
@@ -125,6 +125,7 @@ body {
 /* features */
 .features-title {
   text-transform: uppercase;
+  font-weight: 700;
 }
 .features-text {
   color: var(--main-text);
