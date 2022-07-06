@@ -126,7 +126,6 @@ body {
 .features-title {
   text-transform: uppercase;
   font-weight: 700;
-  line-height: ;
 }
 .features-text {
   color: var(--main-text);
