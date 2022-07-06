@@ -126,9 +126,11 @@ body {
 .features-title {
   text-transform: uppercase;
   font-weight: 700;
+  line-height: ;
 }
 .features-text {
   color: var(--main-text);
+  line-height: 1.71;
 }
 .we-title {
   font-weight: 700;
@@ -162,6 +164,6 @@ body {
 }
 .work-text {
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1.88;
   color: var(--main-text);
 }
