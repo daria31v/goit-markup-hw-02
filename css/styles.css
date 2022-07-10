@@ -35,6 +35,7 @@ body {
 .list-link.current {
   color: var(--accent-bgr-btn-color);
   text-transform: none;
+  font-weight: 500;
 }
 .list-link.header {
   color: var(--main-text);
@@ -126,6 +127,7 @@ body {
 .features-title {
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 14px;
 }
 .features-text {
   color: var(--main-text);
